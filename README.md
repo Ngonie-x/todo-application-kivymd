@@ -1,6 +1,8 @@
 # todo-application-kivymd
 A simple todo application made using kivymd
 
+**Note:** If you get the error ModuleNotFoundError: No module named 'kivymd.uix.pickers' while running the application on your computer just change the import to 'kivymd.uix.picker'. When packaging for android use 'kivymd.uix.pickers'
+
 # Requirement
 - python3
 - Kivy==2.0.0
